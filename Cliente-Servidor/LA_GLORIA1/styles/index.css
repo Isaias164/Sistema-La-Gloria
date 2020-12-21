@@ -1,0 +1,184 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+body{
+    background: bisque;
+    max-width: 100%;
+    height: auto;
+}
+
+#logoMyCompany{
+    width: auto;
+    height: 100px;
+    background: green;
+}
+#atletas{
+    width: auto;
+    height: 100px;
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    border: none;
+    z-index: 1;
+}
+#logo{
+    width: 100px;
+    height: 99px;
+    float: left;
+    clear: both;
+}
+#titulo{
+    float: start;
+    font-size: 28px;
+    font-family: sans-serif;
+    color: black;
+    text-shadow: 8px 9px 2px black;
+    font-weight: bold;
+    color: white;
+}
+a{
+    color: greenyellow;
+}
+#parentContainer{
+    width: auto;
+    height: 255px;
+    /*border: 5px orange solid;*/
+    clear: both;
+}
+
+#futbol{
+    position: absolute;
+    top: 19%;
+    left: 5%;
+}
+#gym{
+    position: absolute;
+    top: 19%;
+    left: 27.5%;
+}
+#sinkSwimming{
+    position: absolute;
+    top: 19%;
+    left: 51%;
+}
+#paddle{
+    position: absolute;
+    top: 19%;
+    left: 76%;
+}
+
+#linkF,#linkG,#linkN,#linkP{
+    text-decoration: none;
+    width: 115px;
+    height: 22px;
+    background-color: green;
+    color: white;
+    position: absolute;
+    top:105%;
+    left: 20.5%;
+    text-align: center;
+    border-radius: 15px;
+}
+
+img{
+    width: 213px;
+    height: 180px;
+}
+#competitions{
+    width: auto;
+    height: 330px;
+    border: 2.5px green solid;
+    position: relative;
+}
+#competitions > p{
+    color: black;
+    background-color: cornsilk;
+    font-size: 20px;
+}
+
+#compeFutbol{
+    margin-top: 65px;
+    position: absolute;
+    top:5px;
+    left: 3.5%;
+}
+#compeGym{
+    margin-top: 65px;
+    position: absolute;
+    top:5px;
+    left: 26%;
+}
+#compeNatacion{
+    margin-top: 65px;
+    position: absolute;
+    top:5px;
+    left: 50%;
+}
+#compePaddle{
+    margin-top: 65px;
+    position: absolute;
+    top:5px;
+    left: 75%;
+}
+
+footer{
+    clear: both;
+}
+
+footer > div:hover{
+    background-color: green;
+}
+footer > div{
+    width: 49.79%;
+    height: 155px; 
+    border: 1px white solid;
+    background-color:bisque; /*rgb(97, 255, 51);*/
+    float: left;
+}
+
+header{
+    color: green;
+    text-align: center;
+    font-size: 30px;
+    font-weight: bold;
+    position: relative;
+    top: 50px;
+}
+div > p{
+    color: white;
+}
+footer > div > p{
+    font-size: 18px;
+    text-align: left;
+    padding: 5px;
+    display: none;
+}
+
+#competitions > img{
+    width: 215px;
+    height: 200px;
+    float: left;
+    padding-top: 10px;
+    padding-right: 20px;
+    padding-left: 15px;
+    border: none;
+}
+#competitions > img:hover{
+    width: 700px;
+    height: 700px;
+    position: absolute;
+    bottom: 50%;
+    left: 22%;
+    border: none;
+    z-index: 3;
+}
+#formContact{
+    display: none;
+}
+#tituloTorneos{
+    text-align: center;
+    color: green;
+    position: relative;
+    top: 10px;
+}
