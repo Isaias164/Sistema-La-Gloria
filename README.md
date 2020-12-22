@@ -20,3 +20,10 @@ Consideraciones 2da. Parte TPI
 	Al final del día necesitan contar con un informe de lo recaudado en cada actividad.
 
 Mi idea fue tratar de resolver la mayor cantidad de los items planteados en la Base de Datos.
+
+El programa de escritorio esta hechonen Python.
+El cliente web esta hecho con HTML,CSS y Javascript.
+El servidor esta hecho con php.
+En la carpets del cliente y el servidor esta el usuario y la contraseña del correo administractivo. Este correo se usa para recibir las consultas y oara enviar las contraseñas cuando se quiere recuperar una cuenta.
+Recuerde realizar las configuraciones necesarias en su archivos php.ini y smtp.ini para que el correo pueda ser envíado.
+
