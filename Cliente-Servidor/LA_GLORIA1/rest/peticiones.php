@@ -160,7 +160,7 @@ class Consultas {
                     $mensaje_bd = $mensaje;
                     if($mensaje == 0){
                         $email = new Email();
-                        $email->envio("sosaisaias250@gmail.com", "Recuperación de cuneta - [NO CONTESTAR]", $password, ".", ".", $bandera=true);
+                        $email->envio("ingresaTuCorreo@gmail.com", "Recuperación de cuneta - [NO CONTESTAR]", $password, ".", ".", $bandera=true);
                         //$email->envio("Recuperación de cuenta", "recuperacipon de cuenta", $mensaje, $nombre, $apellido, $bandera=true);
                         $mensaje_bd = "Su contraseña ha sido actualizada con exito.Verifique su correo";
                     }
